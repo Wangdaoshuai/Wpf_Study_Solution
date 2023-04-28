@@ -1,0 +1,92 @@
+﻿<Window x:Class="Wpf_Study.Notepad3Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Study"
+        mc:Ignorable="d"
+        Title="Notepad3Window(学习Grid和StackPanel基础)" Height="450" Width="800">
+    <Grid ShowGridLines="True" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+
+            <RowDefinition/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+            <Button Height="20" Width="70" Content="文件"/>
+            <Button Height="20" Width="70" Content="编辑"/>
+            <Button Height="20" Width="70" Content="查看"/>
+            <Button Height="20" Width="70" Content="外观"/>
+            <Button Height="20" Width="70" Content="设置"/>
+            <Button Height="20" Width="70" Content="帮助"/>
+        </StackPanel>
+        <!--<Button HorizontalAlignment="Left" Width="40" Grid.Column="0" Grid.Row="0"/>
+        <Button HorizontalAlignment="Left" Margin="50,0,0,0" Width="40" Grid.Column="0" Grid.Row="0"/>
+        <Button HorizontalAlignment="Left" Margin="100,0,0,0" Width="40" Grid.Column="0" Grid.Row="0"/>-->
+        <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
+            <Button Height="20" Width="20" Content="1"/>
+            <Button Height="20" Width="20" Content="2"/>
+            <Button Height="20" Width="20" Content="3"/>
+            <Button Height="20" Width="20" Content="4"/>
+            <Button Height="20" Width="20" Content="5"/>
+            <Button Height="20" Width="20" Content="6"/>
+        </StackPanel>
+
+        <Grid  Grid.Row="2" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+                <Button Height="20" Content="1"/>
+                <Button Height="20" Content="2"/>
+                <Button Height="20" Content="3"/>
+                <Button Height="20" Content="4"/>
+            </StackPanel>
+
+            <TextBox Grid.Row="0" Grid.Column="1" TextWrapping="Wrap"/>
+        </Grid>
+
+        <Grid Grid.Row="3" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Row="0" Grid.Column="0" Content="行 8/11"/>
+            <Button Grid.Row="0" Grid.Column="1" Content="列 3/2"/>
+            <Button Grid.Row="0" Grid.Column="2" Content="字符 3/2"/>
+            <Button Grid.Row="0" Grid.Column="3" Content="求值 --"/>
+            <Button Grid.Row="0" Grid.Column="4" Content="选定 --"/>
+            <Button Grid.Row="0" Grid.Column="5" Content="选行 --"/>
+            <Button Grid.Row="0" Grid.Column="6" Content="匹配 --"/>
+            <Button Grid.Row="0" Grid.Column="7" Content="48 --"/>
+            <Button Grid.Row="0" Grid.Column="8" Content="选定 --"/>
+            <Button Grid.Row="0" Grid.Column="9" Content="选行 --"/>
+            <Button Grid.Row="0" Grid.Column="10" Content="匹配 --"/>
+            <Button Grid.Row="0" Grid.Column="11" Content="48 --"/>
+            <Button Grid.Row="0" Grid.Column="12" Content="选行 --"/>
+            <Button Grid.Row="0" Grid.Column="13" Content="匹配 --"/>
+            <Button Grid.Row="0" Grid.Column="14" Content="48 --"/>
+            <Button Grid.Row="0" Grid.Column="15" Content="选定 --"/>
+
+        </Grid>
+    </Grid>
+</Window>

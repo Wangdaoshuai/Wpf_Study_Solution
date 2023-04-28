@@ -1,0 +1,16 @@
+﻿<Window x:Class="Wpf_Study.Style全局样式和资源字典_1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Study"
+        mc:Ignorable="d"
+        Title="Style全局样式和资源字典_1" Height="450" Width="800">
+    <!--App.xaml里添加了全局资源字典BaseButtonStyle文件,然后此文件引用了其中的Style-->
+    <StackPanel>
+        <Button Style="{StaticResource StartStyle}" Content="登录"/>
+        <Button Style="{StaticResource QuitStyle}" Content="退出"/>
+    </StackPanel>
+        
+    
+</Window>
