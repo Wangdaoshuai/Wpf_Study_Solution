@@ -10,21 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Wpf_Study
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// 添加简单的事件.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class 添加简单的事件 : Window
     {
-        public MainWindow()
+        public 添加简单的事件()
         {
             InitializeComponent();
         }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             int num1 = 200;
@@ -32,7 +30,7 @@ namespace Wpf_Study
             int total = num1 + num2;
             txtTotal.Text = total.ToString();
             txtTotal.Visibility = Visibility.Visible;
-         
+
         }
 
         private void Button_MouseEnter(object sender, MouseEventArgs e)

@@ -68,6 +68,9 @@
     <Compile Include="Style基础.xaml.cs">
       <DependentUpon>Style基础.xaml</DependentUpon>
     </Compile>
+    <Compile Include="添加简单的事件.xaml.cs">
+      <DependentUpon>添加简单的事件.xaml</DependentUpon>
+    </Compile>
     <Compile Include="自定义按钮模板以及设置触发器.xaml.cs">
       <DependentUpon>自定义按钮模板以及设置触发器.xaml</DependentUpon>
     </Compile>
@@ -100,6 +103,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Style基础.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="添加简单的事件.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
