@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_Study", "Wpf_Study\Wpf_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_LoginUI", "WPF_LoginUI\WPF_LoginUI.csproj", "{969E0CEB-129A-42B9-A3DC-A0A7EAD878E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_LoginUI_MVVM", "WPF_LoginUI_MVVM\WPF_LoginUI_MVVM.csproj", "{B2595598-EA69-43C0-9DCA-FF89526CFB10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{969E0CEB-129A-42B9-A3DC-A0A7EAD878E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{969E0CEB-129A-42B9-A3DC-A0A7EAD878E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{969E0CEB-129A-42B9-A3DC-A0A7EAD878E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2595598-EA69-43C0-9DCA-FF89526CFB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2595598-EA69-43C0-9DCA-FF89526CFB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2595598-EA69-43C0-9DCA-FF89526CFB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2595598-EA69-43C0-9DCA-FF89526CFB10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
