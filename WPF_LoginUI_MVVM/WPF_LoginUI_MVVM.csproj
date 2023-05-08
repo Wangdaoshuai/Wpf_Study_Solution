@@ -57,6 +57,7 @@
     </ApplicationDefinition>
     <Compile Include="LoginModel.cs" />
     <Compile Include="LoginViewModel.cs" />
+    <Compile Include="RelayCommond.cs" />
     <Compile Include="Test.xaml.cs">
       <DependentUpon>Test.xaml</DependentUpon>
     </Compile>

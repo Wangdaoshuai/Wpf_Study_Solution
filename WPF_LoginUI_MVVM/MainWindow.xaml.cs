@@ -23,19 +23,21 @@ namespace WPF_LoginUI_MVVM
     public partial class MainWindow : Window
     {
         //LoginModel loginModel;
-        LoginViewModel loginVm;
+        //LoginViewModel loginVm;
         public MainWindow()
         {
             InitializeComponent();
 
-            loginVm = new LoginViewModel();
-            this.DataContext = loginVm;
+            this.DataContext = new LoginViewModel(this);
+           // loginVm = new LoginViewModel(this);
+           // this.DataContext = loginVm;
             /*
             loginModel = new LoginModel();
             this.DataContext = loginModel;
             */
         }
 
+        /*
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             // string userName = txtUserName.Text;
@@ -59,7 +61,7 @@ namespace WPF_LoginUI_MVVM
                // loginVm.LoginM = loginVm.LoginM;
             }
 
-        }
+        }*/
     }
 
     
