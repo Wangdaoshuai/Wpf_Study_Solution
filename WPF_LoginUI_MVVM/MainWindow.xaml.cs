@@ -18,7 +18,7 @@ using System.Windows.Shapes;
 namespace WPF_LoginUI_MVVM
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// MainWindow.xaml 的交互逻辑 
     /// </summary>
     public partial class MainWindow : Window
     {
@@ -31,7 +31,7 @@ namespace WPF_LoginUI_MVVM
             this.DataContext = new LoginViewModel(this);
            // loginVm = new LoginViewModel(this);
            // this.DataContext = loginVm;
-            /*
+            /*  test
             loginModel = new LoginModel();
             this.DataContext = loginModel;
             */
