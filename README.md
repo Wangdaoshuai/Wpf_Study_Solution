@@ -28,8 +28,10 @@ WPF_LoginUI(WPF_LoginUI_WVVM)是项目部分
 8.  WPF_LoginUI_WVVM 是WVVM设计模式下的项目 
 
 M model 数据模型； V view 界面； Vm ViewModel 整合业务
-9.  
-10.  
+
+9.  自定义按钮 CustomButton.cs CustomButtonStyles.xaml
+10.  自定义文本框 CustomTexBox.cs CustomTexboxStyle.xaml
+11. PasswordBox支持绑定  WPF_PasswordBoxDemo
 
 #### 使用说明
 

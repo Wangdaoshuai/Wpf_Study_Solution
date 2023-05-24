@@ -9,6 +9,7 @@ using System.Windows.Media;
 
 namespace WPF_LoginUI_MVVM
 {
+    //自定义控件   继承自Button   
     public class CustomButton:Button
     {
         //依赖属性  （能够绑定） prodp +tab

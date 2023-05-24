@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_LoginUI", "WPF_LoginUI\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_LoginUI_MVVM", "WPF_LoginUI_MVVM\WPF_LoginUI_MVVM.csproj", "{B2595598-EA69-43C0-9DCA-FF89526CFB10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_PasswordBoxDemo", "WPF_PasswordBoxDemo\WPF_PasswordBoxDemo.csproj", "{1A127F3B-1C0E-490C-B0B2-97585D5F0C31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B2595598-EA69-43C0-9DCA-FF89526CFB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2595598-EA69-43C0-9DCA-FF89526CFB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2595598-EA69-43C0-9DCA-FF89526CFB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A127F3B-1C0E-490C-B0B2-97585D5F0C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A127F3B-1C0E-490C-B0B2-97585D5F0C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A127F3B-1C0E-490C-B0B2-97585D5F0C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A127F3B-1C0E-490C-B0B2-97585D5F0C31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
